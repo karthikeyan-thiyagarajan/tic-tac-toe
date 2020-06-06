@@ -1,5 +1,3 @@
-package com.karthikeyan;
-
 import java.util.*;
 
 public class TicTacToe {
