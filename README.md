@@ -1,2 +1,2 @@
 # tic-tac-toe
-A Tic Tac Toe game in Java
+A Simple Tic Tac Toe game in Java [`Command line`]
