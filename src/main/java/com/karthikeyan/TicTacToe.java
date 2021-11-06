@@ -20,11 +20,11 @@ public class TicTacToe {
             System.out.print("Enter the Placements (1-9) : ");
 
             int playerPosInt = scanner.nextInt();
-            playerPosInt = checkAvailablity(scanner, playerPosInt, true);
+            playerPosInt = checkAvailability(scanner, playerPosInt, true);
             posPlacement(board, playerPosInt, "player");
 
             int cpuPosInt = new Random().nextInt(9) + 1;
-            cpuPosInt = checkAvailablity(scanner, cpuPosInt, false);
+            cpuPosInt = checkAvailability(scanner, cpuPosInt, false);
             posPlacement(board, cpuPosInt, "cpu");
 
             prrintBoard(board);
@@ -36,7 +36,7 @@ public class TicTacToe {
         }
     }
 
-    private static int checkAvailablity(Scanner scanner, int posInt, boolean isPlayer) {
+    private static int checkAvailability(Scanner scanner, int posInt, boolean isPlayer) {
         int resultPositionInt;
         while (true) {
 

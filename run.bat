@@ -1,2 +1,1 @@
-javac com/karthikeyan/TicTacToe.java &&
-java com/karthikeyan/TicTacToe
+java -jar target/Tic-tac-toe-1.0-SNAPSHOT.jar
